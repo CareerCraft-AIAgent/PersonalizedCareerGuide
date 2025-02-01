@@ -590,7 +590,7 @@ def generate_q2(job, company, k_idx, topic, text):
     요약된 뉴스 내용을 기반으로 질문 생성
 
     """
-    # 프롬프트 작성
+    
     prompt = (f"""
     아래 text는 {company} 회사의 {job} 직무에 지원하는 지원자가 면접 준비 과정에서 {news_keywords[k_idx-1]}를 검색어로 뉴스 기사를 검색한 후,
     자신이 원하는 주제의 기사만 골라서 요약한 결과입니다. 
